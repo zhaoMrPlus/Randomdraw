@@ -94,6 +94,9 @@
     [alert show];
     
 }
+-(void)createUI{
+    NSLog(@"greate");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
