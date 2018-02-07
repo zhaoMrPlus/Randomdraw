@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					6CF66701202AA3D200B1EBC9 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FUM9FP898F;
 						ProvisioningStyle = Automatic;
 					};
 					6CF6671A202AA3D200B1EBC9 = {
@@ -424,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUM9FP898F;
 				INFOPLIST_FILE = Randomdraw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mandb.chirs.Randomdraw;
@@ -435,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUM9FP898F;
 				INFOPLIST_FILE = Randomdraw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mandb.chirs.Randomdraw;
@@ -507,6 +510,7 @@
 				6CF66731202AA3D200B1EBC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CF66732202AA3D200B1EBC9 /* Build configuration list for PBXNativeTarget "RandomdrawTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +519,7 @@
 				6CF66734202AA3D200B1EBC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CF66735202AA3D200B1EBC9 /* Build configuration list for PBXNativeTarget "RandomdrawUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				6CF66737202AA3D200B1EBC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
