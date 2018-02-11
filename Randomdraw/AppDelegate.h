@@ -11,7 +11,6 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 {
     NSString * idstr;
-    
 }
 @property (strong, nonatomic) UIWindow *window;
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B59DC2AC6D533397E5CE8F3 /* libPods-RandomdrawUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0E0FCE23E6B4EC6F19AB40 /* libPods-RandomdrawUITests.a */; };
 		6CF66707202AA3D200B1EBC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF66706202AA3D200B1EBC9 /* main.m */; };
 		6CF6670A202AA3D200B1EBC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF66709202AA3D200B1EBC9 /* AppDelegate.m */; };
 		6CF6670D202AA3D200B1EBC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF6670C202AA3D200B1EBC9 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		6CF66715202AA3D200B1EBC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF66713202AA3D200B1EBC9 /* LaunchScreen.storyboard */; };
 		6CF66720202AA3D200B1EBC9 /* RandomdrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF6671F202AA3D200B1EBC9 /* RandomdrawTests.m */; };
 		6CF6672B202AA3D200B1EBC9 /* RandomdrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF6672A202AA3D200B1EBC9 /* RandomdrawUITests.m */; };
+		904FFE8102D55EA0FA1AE48F /* libPods-Randomdraw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C1F6550437A6D2AAF5230F /* libPods-Randomdraw.a */; };
+		BF44FF04D4004DC7D8E10201 /* libPods-RandomdrawTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BED6FD00C5B6B6880767BB4 /* libPods-RandomdrawTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BED6FD00C5B6B6880767BB4 /* libPods-RandomdrawTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RandomdrawTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A8418FF6219A93EBA11FE0 /* Pods-RandomdrawUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomdrawUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RandomdrawUITests/Pods-RandomdrawUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CF66702202AA3D200B1EBC9 /* Randomdraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randomdraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF66706202AA3D200B1EBC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CF66708202AA3D200B1EBC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		6CF66726202AA3D200B1EBC9 /* RandomdrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomdrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF6672A202AA3D200B1EBC9 /* RandomdrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomdrawUITests.m; sourceTree = "<group>"; };
 		6CF6672C202AA3D200B1EBC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8699B267AD9669F3F11C967E /* Pods-RandomdrawTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomdrawTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RandomdrawTests/Pods-RandomdrawTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFFD8AB556BCA2258162F950 /* Pods-Randomdraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Randomdraw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Randomdraw/Pods-Randomdraw.debug.xcconfig"; sourceTree = "<group>"; };
+		C01856F88E074CD74B3A0E26 /* Pods-Randomdraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Randomdraw.release.xcconfig"; path = "Pods/Target Support Files/Pods-Randomdraw/Pods-Randomdraw.release.xcconfig"; sourceTree = "<group>"; };
+		C6C1F6550437A6D2AAF5230F /* libPods-Randomdraw.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Randomdraw.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82E50846D7CEA533C12ABE0 /* Pods-RandomdrawTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomdrawTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RandomdrawTests/Pods-RandomdrawTests.release.xcconfig"; sourceTree = "<group>"; };
+		FACAEBF3549D43EF6CB04CE3 /* Pods-RandomdrawUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomdrawUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RandomdrawUITests/Pods-RandomdrawUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB0E0FCE23E6B4EC6F19AB40 /* libPods-RandomdrawUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RandomdrawUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904FFE8102D55EA0FA1AE48F /* libPods-Randomdraw.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF44FF04D4004DC7D8E10201 /* libPods-RandomdrawTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B59DC2AC6D533397E5CE8F3 /* libPods-RandomdrawUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F8497BE9EE2FA75E42092EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD8AB556BCA2258162F950 /* Pods-Randomdraw.debug.xcconfig */,
+				C01856F88E074CD74B3A0E26 /* Pods-Randomdraw.release.xcconfig */,
+				8699B267AD9669F3F11C967E /* Pods-RandomdrawTests.debug.xcconfig */,
+				E82E50846D7CEA533C12ABE0 /* Pods-RandomdrawTests.release.xcconfig */,
+				42A8418FF6219A93EBA11FE0 /* Pods-RandomdrawUITests.debug.xcconfig */,
+				FACAEBF3549D43EF6CB04CE3 /* Pods-RandomdrawUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3048705F98FCF7020A7FC767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1F6550437A6D2AAF5230F /* libPods-Randomdraw.a */,
+				2BED6FD00C5B6B6880767BB4 /* libPods-RandomdrawTests.a */,
+				FB0E0FCE23E6B4EC6F19AB40 /* libPods-RandomdrawUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6CF666F9202AA3D200B1EBC9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				6CF6671E202AA3D200B1EBC9 /* RandomdrawTests */,
 				6CF66729202AA3D200B1EBC9 /* RandomdrawUITests */,
 				6CF66703202AA3D200B1EBC9 /* Products */,
+				0F8497BE9EE2FA75E42092EB /* Pods */,
+				3048705F98FCF7020A7FC767 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CF6672F202AA3D200B1EBC9 /* Build configuration list for PBXNativeTarget "Randomdraw" */;
 			buildPhases = (
+				5F5E4DD94FE4C5D0B4A7FE2B /* [CP] Check Pods Manifest.lock */,
 				6CF666FE202AA3D200B1EBC9 /* Sources */,
 				6CF666FF202AA3D200B1EBC9 /* Frameworks */,
 				6CF66700202AA3D200B1EBC9 /* Resources */,
+				DADDE7A44F812835592E1608 /* [CP] Embed Pods Frameworks */,
+				1126E9C492A9A0D86D900378 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CF66732202AA3D200B1EBC9 /* Build configuration list for PBXNativeTarget "RandomdrawTests" */;
 			buildPhases = (
+				C1B9929AF686FCF1437DAAD3 /* [CP] Check Pods Manifest.lock */,
 				6CF66717202AA3D200B1EBC9 /* Sources */,
 				6CF66718202AA3D200B1EBC9 /* Frameworks */,
 				6CF66719202AA3D200B1EBC9 /* Resources */,
+				52BC63A51EF79CC7F273D88F /* [CP] Embed Pods Frameworks */,
+				517C6CA1D5F1229CE8A6BBAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CF66735202AA3D200B1EBC9 /* Build configuration list for PBXNativeTarget "RandomdrawUITests" */;
 			buildPhases = (
+				0D7B3604D47BB17776723F63 /* [CP] Check Pods Manifest.lock */,
 				6CF66722202AA3D200B1EBC9 /* Sources */,
 				6CF66723202AA3D200B1EBC9 /* Frameworks */,
 				6CF66724202AA3D200B1EBC9 /* Resources */,
+				DB387A17F6906A7E4BB3C264 /* [CP] Embed Pods Frameworks */,
+				15A93F4C3286E52EBE84695D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +317,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D7B3604D47BB17776723F63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomdrawUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1126E9C492A9A0D86D900378 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Randomdraw/Pods-Randomdraw-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15A93F4C3286E52EBE84695D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomdrawUITests/Pods-RandomdrawUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		517C6CA1D5F1229CE8A6BBAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomdrawTests/Pods-RandomdrawTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52BC63A51EF79CC7F273D88F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomdrawTests/Pods-RandomdrawTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F5E4DD94FE4C5D0B4A7FE2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Randomdraw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B9929AF686FCF1437DAAD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomdrawTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DADDE7A44F812835592E1608 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Randomdraw/Pods-Randomdraw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB387A17F6906A7E4BB3C264 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RandomdrawUITests/Pods-RandomdrawUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6CF666FE202AA3D200B1EBC9 /* Sources */ = {
@@ -423,6 +619,7 @@
 		};
 		6CF66730202AA3D200B1EBC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFD8AB556BCA2258162F950 /* Pods-Randomdraw.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FUM9FP898F;
@@ -435,6 +632,7 @@
 		};
 		6CF66731202AA3D200B1EBC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01856F88E074CD74B3A0E26 /* Pods-Randomdraw.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FUM9FP898F;
@@ -447,6 +645,7 @@
 		};
 		6CF66733202AA3D200B1EBC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8699B267AD9669F3F11C967E /* Pods-RandomdrawTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RandomdrawTests/Info.plist;
@@ -459,6 +658,7 @@
 		};
 		6CF66734202AA3D200B1EBC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82E50846D7CEA533C12ABE0 /* Pods-RandomdrawTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RandomdrawTests/Info.plist;
@@ -471,6 +671,7 @@
 		};
 		6CF66736202AA3D200B1EBC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A8418FF6219A93EBA11FE0 /* Pods-RandomdrawUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RandomdrawUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +683,7 @@
 		};
 		6CF66737202AA3D200B1EBC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FACAEBF3549D43EF6CB04CE3 /* Pods-RandomdrawUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RandomdrawUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

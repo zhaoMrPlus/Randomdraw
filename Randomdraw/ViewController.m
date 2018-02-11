@@ -5,9 +5,7 @@
 //  Created by 毛蛋 on 2018/2/7.
 //  Copyright © 2018年 zhb. All rights reserved.
 //
-
 #import "ViewController.h"
-
 @interface ViewController ()
 {
     UILabel *label;
@@ -15,9 +13,7 @@
     NSMutableArray *nameList;
 }
 @end
-
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadData];
@@ -46,11 +42,8 @@
     [[NSRunLoop currentRunLoop ]addTimer:timer
                                  forMode:NSDefaultRunLoopMode];
     timer.fireDate = [NSDate distantFuture];
-    
 }
-
-- (void)loadData
-
+- (void)loadData  
 {
     
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
@@ -66,13 +59,14 @@
                 @"裙子",@"帽子",@"扎花",@"拖鞋",@"睡衣",
                 @"美食",@"小摩托",@"自行车",@"滑板车", nil];
     
+
+    
     [userDefaults setObject:nameList forKey:@"nameList"];
     [userDefaults synchronize];
     [userDefaults objectForKey:@"nameList"];
     int arcNumber = arc4random()%nameList.count;
     label.text = nameList[arcNumber];
     label.textColor= [UIColor redColor];
-    
 }
 
 - (void)push:(UIButton *)sender{
@@ -92,15 +86,14 @@
 {
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"真的是你" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alert show];
-    
 }
+
 -(void)createUI{
     NSLog(@"greate");
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 @end
